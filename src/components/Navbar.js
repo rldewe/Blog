@@ -11,7 +11,9 @@ export default function Navbar(){
             </div>
 
             <div className="nav-right flex items-center justify-end gap-40 mr-20 text-white ">
-                <button>Blogs</button>
+                
+                <button className="">Blogs</button>
+            
                 <button>About</button>
                 <button>Contact</button>
             </div>

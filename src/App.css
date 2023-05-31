@@ -1,7 +1,9 @@
 .App {
   text-align: center;
 }
-
+.blur-effect {
+  backdrop-filter: blur(10px);
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
