@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 .blur-effect {
   backdrop-filter: blur(10px);
