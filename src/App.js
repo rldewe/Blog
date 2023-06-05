@@ -9,8 +9,9 @@ import {Link,Routes,Route} from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Footer from './components/Footer';
-import ContactForm from './pages/ContactForm';
-import BP from './pages/Blogpage';
+import ContactForm from './components/ContactForm';
+import Blogpage from './components/Blogpage';
+import BlogData from './components/Blogdata';
 
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Home/>}/>
       <Route path="/connect" element={<ContactForm/>}/>
-      <Route path="/blogs" element={<BP/>}/>
+      <Route path="/blogs" element={<BlogData/>}/>
 
     
     </Routes>
