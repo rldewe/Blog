@@ -13,7 +13,7 @@ export default function Home(){
                 <div className="col-span-2 md:col-span-1 mt-40 ml-20 mr-20 text-left font-bold text-5xl">
                 <Typewriter
                         options={{
-                        strings: ['Hi ! ', 'I am Mike'],
+                        strings: ['Hi ! ', 'I am Mer'],
                         autoStart: true,
                         loop: true,
                                     }}
