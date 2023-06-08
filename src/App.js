@@ -12,6 +12,7 @@ import Footer from './components/Footer';
 import ContactForm from './components/ContactForm';
 import Blogpage from './components/Blogpage';
 import BlogData from './components/Blogdata';
+import About from './components/About';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <Route path="/" element={<Home/>}/>
       <Route path="/connect" element={<ContactForm/>}/>
       <Route path="/blogs" element={<BlogData/>}/>
+      <Route path="/about" element={<About/>}/>
 
     
     </Routes>
